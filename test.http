@@ -1,0 +1,37 @@
+###
+GET http://localhost:8787/api/echo?param=Boba
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjM2MxMTc4My03ZmU5LTQ5MDEtYTE4ZS02OTRmZDViYWM4MDIiLCJhdWQiOiJBQ0NFU1MiLCJpYXQiOjE2NjczMDY3OTEsImV4cCI6MTY2NzkwNjc5MX0.LxNVQeAiiWFtOJMtpyJ8E1AyfCiiq97FLLmRHibcpkW5JvMFbcc5x2lGSxIFgIIn8YQeEstvmwxEfq45Xe7lrA
+Accept-Language: ru
+
+###
+POST http://localhost:8787/api/print
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjM2MxMTc4My03ZmU5LTQ5MDEtYTE4ZS02OTRmZDViYWM4MDIiLCJhdWQiOiJBQ0NFU1MiLCJpYXQiOjE2NjczMDY3OTEsImV4cCI6MTY2NzkwNjc5MX0.LxNVQeAiiWFtOJMtpyJ8E1AyfCiiq97FLLmRHibcpkW5JvMFbcc5x2lGSxIFgIIn8YQeEstvmwxEfq45Xe7lrA
+Accept-Language: ru
+Pipiska: 1111111
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": null
+}
+
+###
+
+GET http://localhost:8787/api/validating/9?age=-1
+
+###
+
+POST http://localhost:8787/api/printValidBody
+Accept-Language: ru
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name": null
+}
+
+###
+
+GET https://avatars.yandex.net/get-music-content/34131/739a6db2.a.2229262-1/200x200
